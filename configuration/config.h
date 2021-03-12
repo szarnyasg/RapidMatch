@@ -33,12 +33,13 @@
  * Optimize relation structure.
  * 0: encoded trie; 1: hash; 2: trie.
  */
-#define RELATION_STRUCTURE 0
+// 0 fails with HOMOMORPHISM but 1/2 works
+#define RELATION_STRUCTURE 2
 
 /**
  * Add the macro to find homomorphisms.
  */
-// #define HOMOMORPHISM
+#define HOMOMORPHISM
 
 /**
  * Add the macro to enable intersection caching.
