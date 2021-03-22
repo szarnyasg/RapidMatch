@@ -49,7 +49,7 @@
 /**
  * Add the macro to enable failing set pruning.
  */
-#define FAILING_SET_PRUNING
+// #define FAILING_SET_PRUNING
 
 /**
  * Add the macro to enable QFilter.
